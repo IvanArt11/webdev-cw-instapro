@@ -52,6 +52,7 @@ p {
   background-color: #565eef;
   color: #ffffff;
   border: none;
+  cursor: pointer;
 }
 
 .link-button {
@@ -61,6 +62,10 @@ p {
   background: none;
   color: #565eef;
   cursor: pointer;
+}
+
+.link-button:hover {
+  text-decoration: underline;
 }
 
 .button:hover {
