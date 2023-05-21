@@ -48,9 +48,14 @@
   text-align: right;
 }
 
-.post {
+.posts {
   max-width: 500px;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .post-header {
@@ -61,6 +66,7 @@
   cursor: pointer;
   transition: background-color .3s;
 }
+
 .post-header:hover {
   background-color: #f4f3f3;
 }
@@ -166,6 +172,7 @@
   display: flex;
   justify-content: center;
 }
+
 .form {
   display: flex;
   flex-direction: column;
